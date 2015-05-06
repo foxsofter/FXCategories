@@ -2,7 +2,7 @@
 //  ViewController.m
 //  FXCategories
 //
-//  Created by wei on 15/5/6.
+//  Created by foxsofter on 15/5/6.
 //  Copyright (c) 2015年 foxsofter. All rights reserved.
 //
 

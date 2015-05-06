@@ -14,6 +14,11 @@
 		B6B56C1E1AFA39AD00283B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B56C1D1AFA39AD00283B72 /* Images.xcassets */; };
 		B6B56C211AFA39AD00283B72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B56C1F1AFA39AD00283B72 /* LaunchScreen.xib */; };
 		B6B56C2D1AFA39AD00283B72 /* FXCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C2C1AFA39AD00283B72 /* FXCategoriesTests.m */; };
+		B6B56C391AFA3A2700283B72 /* UIButton+Submitting.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C381AFA3A2700283B72 /* UIButton+Submitting.m */; };
+		B6B56C3C1AFA3AA200283B72 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C3B1AFA3AA200283B72 /* NSObject+Swizzling.m */; };
+		B6B56C3F1AFA3B5100283B72 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C3E1AFA3B5100283B72 /* NSObject+AssociatedObject.m */; };
+		B6B56C441AFA3BF700283B72 /* NSObject+Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */; };
+		B6B56C451AFA3BF700283B72 /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C431AFA3BF700283B72 /* UIControl+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		B6B56C261AFA39AD00283B72 /* FXCategoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXCategoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B56C2B1AFA39AD00283B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B56C2C1AFA39AD00283B72 /* FXCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXCategoriesTests.m; sourceTree = "<group>"; };
+		B6B56C371AFA3A2700283B72 /* UIButton+Submitting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Submitting.h"; path = "Classes/UIButton+Submitting.h"; sourceTree = "<group>"; };
+		B6B56C381AFA3A2700283B72 /* UIButton+Submitting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Submitting.m"; path = "Classes/UIButton+Submitting.m"; sourceTree = "<group>"; };
+		B6B56C3A1AFA3AA200283B72 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzling.h"; path = "Classes/NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		B6B56C3B1AFA3AA200283B72 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzling.m"; path = "Classes/NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		B6B56C3D1AFA3B5100283B72 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedObject.h"; path = "Classes/NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		B6B56C3E1AFA3B5100283B72 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedObject.m"; path = "Classes/NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		B6B56C401AFA3BF700283B72 /* NSObject+Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Thread.h"; path = "Classes/NSObject+Thread.h"; sourceTree = "<group>"; };
+		B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Thread.m"; path = "Classes/NSObject+Thread.m"; sourceTree = "<group>"; };
+		B6B56C421AFA3BF700283B72 /* UIControl+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+Block.h"; path = "Classes/UIControl+Block.h"; sourceTree = "<group>"; };
+		B6B56C431AFA3BF700283B72 /* UIControl+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "Classes/UIControl+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 		B6B56C0F1AFA39AD00283B72 /* FXCategories */ = {
 			isa = PBXGroup;
 			children = (
+				B6B56C361AFA39BC00283B72 /* Classes */,
 				B6B56C141AFA39AD00283B72 /* AppDelegate.h */,
 				B6B56C151AFA39AD00283B72 /* AppDelegate.m */,
 				B6B56C171AFA39AD00283B72 /* ViewController.h */,
@@ -117,6 +133,23 @@
 				B6B56C2B1AFA39AD00283B72 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6B56C361AFA39BC00283B72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6B56C401AFA3BF700283B72 /* NSObject+Thread.h */,
+				B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */,
+				B6B56C421AFA3BF700283B72 /* UIControl+Block.h */,
+				B6B56C431AFA3BF700283B72 /* UIControl+Block.m */,
+				B6B56C3D1AFA3B5100283B72 /* NSObject+AssociatedObject.h */,
+				B6B56C3E1AFA3B5100283B72 /* NSObject+AssociatedObject.m */,
+				B6B56C371AFA3A2700283B72 /* UIButton+Submitting.h */,
+				B6B56C381AFA3A2700283B72 /* UIButton+Submitting.m */,
+				B6B56C3A1AFA3AA200283B72 /* NSObject+Swizzling.h */,
+				B6B56C3B1AFA3AA200283B72 /* NSObject+Swizzling.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +201,7 @@
 				TargetAttributes = {
 					B6B56C0C1AFA39AD00283B72 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = K5992V3NHR;
 					};
 					B6B56C251AFA39AD00283B72 = {
 						CreatedOnToolsVersion = 6.3;
@@ -219,9 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B56C3F1AFA3B5100283B72 /* NSObject+AssociatedObject.m in Sources */,
+				B6B56C451AFA3BF700283B72 /* UIControl+Block.m in Sources */,
 				B6B56C191AFA39AD00283B72 /* ViewController.m in Sources */,
+				B6B56C441AFA3BF700283B72 /* NSObject+Thread.m in Sources */,
 				B6B56C161AFA39AD00283B72 /* AppDelegate.m in Sources */,
 				B6B56C131AFA39AD00283B72 /* main.m in Sources */,
+				B6B56C3C1AFA3AA200283B72 /* NSObject+Swizzling.m in Sources */,
+				B6B56C391AFA3A2700283B72 /* UIButton+Submitting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +388,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FXCategories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FXCategories/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
