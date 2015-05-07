@@ -19,6 +19,7 @@
 		B6B56C3F1AFA3B5100283B72 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C3E1AFA3B5100283B72 /* NSObject+AssociatedObject.m */; };
 		B6B56C441AFA3BF700283B72 /* NSObject+Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */; };
 		B6B56C451AFA3BF700283B72 /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B56C431AFA3BF700283B72 /* UIControl+Block.m */; };
+		B6B56C4D1AFAFDB100283B72 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B6B56C4C1AFAFDB100283B72 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Thread.m"; path = "Classes/NSObject+Thread.m"; sourceTree = "<group>"; };
 		B6B56C421AFA3BF700283B72 /* UIControl+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIControl+Block.h"; path = "Classes/UIControl+Block.h"; sourceTree = "<group>"; };
 		B6B56C431AFA3BF700283B72 /* UIControl+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "Classes/UIControl+Block.m"; sourceTree = "<group>"; };
+		B6B56C4C1AFAFDB100283B72 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		B6B56C361AFA39BC00283B72 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6B56C4C1AFAFDB100283B72 /* LICENSE */,
 				B6B56C401AFA3BF700283B72 /* NSObject+Thread.h */,
 				B6B56C411AFA3BF700283B72 /* NSObject+Thread.m */,
 				B6B56C421AFA3BF700283B72 /* UIControl+Block.h */,
@@ -235,6 +238,7 @@
 			files = (
 				B6B56C1C1AFA39AD00283B72 /* Main.storyboard in Resources */,
 				B6B56C211AFA39AD00283B72 /* LaunchScreen.xib in Resources */,
+				B6B56C4D1AFAFDB100283B72 /* LICENSE in Resources */,
 				B6B56C1E1AFA39AD00283B72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
