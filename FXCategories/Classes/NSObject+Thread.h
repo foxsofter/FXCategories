@@ -12,7 +12,10 @@
 
 #pragma mark - NSObject performSelector with multi parameter
 
-- (id)performSelector:(SEL)selector withObject:(id)p1 withObject:(id)p2 withObject:(id)p3;
+- (id)performSelector:(SEL)selector
+           withObject:(id)p1
+           withObject:(id)p2
+           withObject:(id)p3;
 
 - (id)performSelector:(SEL)selector
            withObject:(id)p1
@@ -98,7 +101,5 @@
 - (void)performBlock:(void (^)(void))block;
 
 - (void)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay;
-
-- (void)performAsyncBlock:(void (^)(void))block;
 
 @end

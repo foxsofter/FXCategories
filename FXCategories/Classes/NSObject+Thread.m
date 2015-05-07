@@ -296,8 +296,4 @@
       dispatch_get_main_queue(), block);
 }
 
-- (void)performAsyncBlock:(void (^)(void))block {
-  dispatch_async(dispatch_get_main_queue(), block);
-}
-
 @end
